@@ -1,7 +1,6 @@
 <template>
     <v-row
         no-gutters
-        class="main"
         justify="center"
         align="center"
     >
@@ -287,13 +286,6 @@
     
     .info-btn:hover {
         filter: brightness(80%);
-    }
-
-    .main {
-        background: radial-gradient(circle at 10% 20%, rgb(90, 92, 106) 0%, rgb(32, 45, 58) 81.3%);
-        padding: 20px 0px;
-        height: 100dvh;
-        width: 100dvw;
     }
 
     :deep(.v-list-item-title) {
